@@ -1,4 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/9YUeXH71)
+
 # Theoretical Sorting
 
 A Computer Science researcher claims to have come up with a sorting algorithm
@@ -17,3 +18,17 @@ Also give a theoretical argument for why X could or could not be correct, based
 on the complexity of the general sorting problem we covered in class.
 
 Add your answers to this markdown file.
+
+## Solution
+
+**IDEAS:**
+
+Generate large test data and compare it to what you would expect. Since the algorithm is supposed to be $O(n)$, this would mean that on average the expected results would all be linear for a certain dataset.
+
+- Create test data, (sorted, random shuffles, partially sorted, etc...)
+- Run it through this black box and gather some data.
+  - Execution time should average a linear trend with the size of the input.
+  - If it's not statistically consistent with a linear approximation then this would mean the algorithm is indeed not acttually $O(n)$.
+
+**THEORETICAL:**
+WTF??
